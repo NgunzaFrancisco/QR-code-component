@@ -1,0 +1,38 @@
+body{
+  background-color: hsl(212, 45%, 89%);
+  
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.container figure{
+  padding: 1em;
+  border-radius: .8em;
+  background-color: hsl(0, 0%, 100%);
+  
+}
+
+.container figure img{
+  width: 100%;
+  border-radius: inherit;
+}
+.container figcaption{
+  text-align: center;
+  margin: 1em 0;
+}
+.container figcaption h1{
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 17px;
+}
+.container figcaption p{
+  font-size: 15px;
+}
+@media (min-width: 770px){
+  .container{
+    width: 20%;
+  }
+}
